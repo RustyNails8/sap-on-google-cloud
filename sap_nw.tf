@@ -48,7 +48,7 @@ module "sap_nw" {
   usr_sap_size = 15 # default is 0, minimum is 0
   sap_mnt_size = 20 # default is 0, minimum is 0
   swap_size    = 20 # default is 0, minimum is 0
-  # network_tags         = [ "TAG_NAME" ]        # default is an empty list
+  network_tags         = [ "SD_SAP" ]        # default is an empty list
   public_ip = true # default is true
   # service_account = "sapadm" # default is an empty string
   # reservation_name     = ""                    # default is an empty string
